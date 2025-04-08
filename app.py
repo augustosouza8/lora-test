@@ -2,7 +2,7 @@
 app.py
 ======
 A minimal Gradio demo to verify the Spaces environment. This simple interface confirms that the model
-loads correctly and provides a starting point for later interactive features.
+loads correctly and provides a starting point for later interactive features..
 """
 
 import gradio as gr
