@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.*          # e.g. .env.local, .env.test
+venv/           # or whatever your virtual-env folder is named
+
+# IDE / editor
+.idea/
+*.iml
+
+# Logs
+*.log
+app.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data / model artifacts (don’t commit large binaries)
+src/data/processed/
+src/data/chunks/
+src/data/embeddings.pkl
+src/data/faiss.index
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
